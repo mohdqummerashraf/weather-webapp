@@ -1,0 +1,32 @@
+
+.wrap-search{
+    padding: 20px 0px;
+    background-color: rgba(39, 39, 39, 0.795);
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+.wrap-search .col-6:last-child{
+    text-align: center;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h2 span{
+color: rgb(0, 255, 0);
+}
+
+form input{
+    width: 80%;
+    height: 30px;
+    outline: none;
+}
+
+form button{
+    width: 20%;
+    height: 30px;
+
+}

@@ -1,0 +1,52 @@
+.wrap-search {
+  padding: 20px 0px;
+  background-color: rgba(39, 39, 39, 0.795);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+}
+
+.wrap-search .col-6:last-child {
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h2 span {
+  color: lime;
+}
+
+form input {
+  width: 50%;
+  height: 30px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  border-bottom: 2px solid gray;
+  margin-right: 10px;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+form input:hover {
+  border-bottom: 2px solid rgb(182, 182, 182);
+}
+
+form button {
+  max-width: 65px;
+  background-color: rgba(255, 255, 255, 0.89);
+  outline: none;
+  border: none;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+
+}
+
+/*# sourceMappingURL=search.css.map */

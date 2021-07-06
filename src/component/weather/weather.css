@@ -1,0 +1,138 @@
+ .wrap-weather {
+     margin: 20px 0px 0px 0px;
+  }
+
+  .wrap-weather .col-8{
+    background-image: url("https://cdn.pixabay.com/photo/2019/08/30/12/54/landscape-4441297_960_720.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+ .weather-info {
+     position: relative;
+     padding-bottom: 20px;
+      
+ }
+
+ .temp-data-align {
+     display: block;
+ }
+
+ #weather-img {
+     text-align: center;
+
+ }
+
+ #weather-img img {
+     width: 200px;
+     height: 200px;
+ }
+
+ #city {
+     font-size: 32px;
+     text-align: center;
+     font-weight: lighter;
+     text-align: right;
+     padding: 20px 0px;
+     margin-bottom: 340px;
+
+ }
+
+ #weather-temp {
+     font-size: 32px;
+     font-weight: lighter;
+     float: right;
+     margin: 15px 0px 0px 0px;
+     padding: 15px;
+     background-color: rgba(219, 219, 219, 0.411);
+     border-radius: 5px;
+     box-shadow: 0px 0px 2px 0px ;
+ }
+
+ #weather-temp span {
+     font-size: 22px;
+     padding: 2px;
+ }
+
+ #weather-time {
+     
+     float: left;
+     font-weight: lighter;
+     padding: 15px;
+     background-color: rgba(194, 194, 194, 0.411);
+     border-radius: 5px;
+        box-shadow: 0px 0px 2px 0px ;
+        margin: 10px 0px;
+    }
+
+    #weather-time p:first-child{
+        font-size: 26px;
+    }
+
+    #weather-time p:last-child{
+        font-size: 16px;
+        font-weight: bold;
+    }
+ .weather-data {
+     background-color: rgba(46, 46, 46, 0.281);
+     padding: 15px 15px 0px 15px;
+     margin: 0px -15px;
+ }
+
+ .weather-data img {
+     width: 100%;
+     height: 300px;
+ }
+
+ .weather-align {
+     display: block;
+     
+
+ }
+
+ .weather-align img {
+     max-width: 30px;
+     height: 20px;
+     vertical-align: baseline;
+     margin: 0px 3px;
+ }
+
+ .weather-align hr {
+     margin: 15px 0px;
+     vertical-align: baseline;
+     border: none;
+     background-color: rgb(196, 196, 196);
+     width: 100%;
+     height: 1px;
+ }
+
+ #type-hr {
+     margin: 10px 0px 25px 0px;
+     vertical-align: baseline;
+     border: none;
+     background-color: white;
+     width: 100%;
+     height: 2px;
+ }
+
+ .clear {
+     clear: both;
+     display: block;
+ }
+
+ .data {
+     float: left;
+     font-size: 20px;
+ }
+
+ .data-1 {
+     float: right;
+    font-weight: 600;
+    font-size: 20px;
+ }
+
+ .weather-type {
+     padding: 10px 0px;
+     text-align: center;
+     font-size: 44px;
+ }
